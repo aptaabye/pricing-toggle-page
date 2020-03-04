@@ -1,0 +1,149 @@
+@media screen and (max-width:991.98px) {
+  div {
+    width:100% !important;
+  }
+  .card {
+    margin:0 !important;
+  }
+
+  .annual {
+    margin-left: 2rem !important;
+  }
+
+  .month {
+    margin-right: 2rem !important;
+  }
+}
+
+html {
+  width:100%;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-image: url("images/bg-top.svg"), url("images/bg-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, bottom left;
+  background-color: hsl(240, 78%, 98%);
+  width:100;
+}
+div {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  color: hsl(234, 14%, 74%);
+}
+
+.annual {
+  margin-left: 30rem;
+}
+
+.month {
+  margin-right: 30rem;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 2rem;
+  color: hsl(232, 13%, 33%);
+  font-weight: 700;
+}
+
+.card {
+  margin:0;
+}
+
+.btn {
+  width:80%;
+}
+.btn-outline-light {
+  background-color: hsl(233, 13%, 49%);
+  background-image: linear-gradient(to bottom right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+}
+
+.btn-outline-light:hover {
+  background-color: white !important;
+  background-image: none;
+  border-color:hsl(233, 13%, 49%);
+  color: hsl(233, 13%, 49%);
+}
+
+.btn-outline-dark {
+  background-color: white;
+  color: hsl(233, 13%, 49%) !important;
+  border: none;
+}
+
+.btn-outline-dark:hover{
+  background-image: linear-gradient(to bottom right, hsl(236, 72%, 79%), hsl(237, 63%, 64%)) !important;
+  border-color: white !important;
+  border-width: thin !important;
+  color: white !important;
+}
+
+.dollar {
+  font-size:3rem;
+  font-weight:900;
+}
+
+#basic {
+  margin-left: 13rem;
+  margin-top: 1.5rem;
+  height:25rem;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+#professional {
+  height:28rem;
+  background-color: hsl(233, 13%, 49%);
+  background-image: linear-gradient(to bottom right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  margin:0;
+}
+
+#master {
+  margin-right: 13rem;
+  margin-top: 1.5rem;
+  height:25rem;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#professional * {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color:white;
+}
+
+#professional h5 {
+  margin-top: 0;
+}
+
+#professional hr {
+  border-color:#d3d3d3;
+}
+
+.custom-switch {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.buttonrow {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.card-deck {
+  margin-top: 3rem;
+  margin-bottom: 12rem;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="bootstrap4c-custom-switch-master/dist/css/component-custom-switch.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+
+  <title>Frontend Mentor | </title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <h3>Our Pricing</h3>
+  <div class="row buttonrow ">
+    <h4 class="annual col">Annually</h4>
+    <div class="custom-switch custom-switch-label-io col">
+      <input class="custom-switch-input" id="example_1" type="checkbox">
+      <label class="custom-switch-btn" for="example_1"></label>
+    </div>
+    <h4 class="month col">Monthly</h4>
+  </div>
+  <div class="card-deck row">
+    <div class="card col-lg-3" id="basic">
+      <div class="card-body">
+        <h5 class="card-title">Basic</h5>
+        <p class="card-text dollar">&dollar;199.99</p>
+        <hr>
+        <p class="card-text">500 GB Storage</p>
+        <hr>
+        <p class="card-text">2 Users Allowed</p>
+        <hr>
+        <p class="card-test">Send up to 3 GB</p>
+        <hr>
+        <button class="btn btn-outline-light">LEARN MORE</button>
+      </div>
+    </div>
+
+    <div class="card col-lg-3" id="professional">
+      <div class="card-body">
+        <h5 class="card-title">Professional</h5>
+        <p class="card-text dollar">&dollar;249.99</p>
+        <hr>
+        <p class="card-text">1 TB Storage</p>
+        <hr>
+        <p class="card-text">5 Users Allowed</p>
+        <hr>
+        <p class="card-test">Send up to 10 GB</p>
+        <hr>
+        <button class="btn btn-outline-dark">LEARN MORE</button>
+      </div>
+    </div>
+
+    <div class="card col-lg-3" id="master">
+      <div class="card-body">
+        <h5 class="card-title">Master</h5>
+        <p class="card-text dollar">&dollar;399.99</p>
+        <hr>
+        <p class="card-text">2 TB Storage</p>
+        <hr>
+        <p class="card-text">10 Users Allowed</p>
+        <hr>
+        <p class="card-test">Send up to 20 GB</p>
+        <hr>
+        <button class="btn btn-outline-light">LEARN MORE</button>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Santiago Orellana</a>.
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src='./index.js' charset=”utf-8”></script>
+</body>
+</html>
